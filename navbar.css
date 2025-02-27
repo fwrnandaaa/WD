@@ -1,0 +1,86 @@
+* {
+    font-family: 'Lora', serif;
+}
+
+#barra_pesquisa {
+    width: 150%;
+    padding: 6%;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgba(245, 234, 218, 1);
+    color: #666; /* Cor do texto */
+}
+
+#barra_pesquisa:focus {
+    background-color: rgba(245, 234, 218, 1);
+}
+
+#navpt1 {
+    font-family: montserrat-bold;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 3%;
+    align-items: center;
+}
+
+#logoFrag {
+    width: 40%;
+    height: auto;
+    margin-left: 14%;
+}
+
+#loginIcon {
+    padding-top: 6px;
+    margin-left: 2px;
+    width: 100%;
+    height: auto;
+}
+
+#login {
+    display: flex;
+    gap: 10%;
+    margin-right: 5%;
+    align-items: center; /* Alinha os itens verticalmente */
+}
+
+#login a {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #695643; /* Cor do texto */
+    font-size: 14px; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+}
+
+#login a:hover {
+    color: #DC143C; /* Cor ao passar o mouse */
+}
+
+#navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #695643;
+}
+
+#navegacao a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    color: #695643;
+}
+
+#navegacao a:hover {
+    color: #DC143C;
+}
+@font-face{
+    font-family: "montserrat-bold";
+    src: url('fontes/Montserrat-Bold.ttf');
+  }
