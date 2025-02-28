@@ -4,12 +4,13 @@
     font-weight: 540;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 #itens_pessoais {
 
     width: 70%;
-   
+
 }
 
 td {
@@ -29,15 +30,16 @@ main {
     width: 30%;
     height: 570px;
     background-color: #F5EADA;
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-    flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 20px;
     box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
 
 
 }
+
 table tr img {
     width: 25px;
     height: auto;
@@ -57,12 +59,15 @@ table tr img {
 }
 
 #perfil h1 {
-    margin-bottom: 3%; /* Espaçamento abaixo do texto */
+    margin-bottom: 3%;
+    /* Espaçamento abaixo do texto */
 }
 
-#perfil > img {
-    margin-bottom: 10%; /* Espaçamento abaixo do texto */
-    width: 100px; /* Ajuste o tamanho da imagem */
+#perfil>img {
+    margin-bottom: 10%;
+    /* Espaçamento abaixo do texto */
+    width: 100px;
+    /* Ajuste o tamanho da imagem */
     height: auto;
     border-radius: 10px;
 }
@@ -77,9 +82,6 @@ table tr img {
 
 .menu-item {
     background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     border: none;
     width: 100%;
     padding: 10px;
@@ -88,18 +90,54 @@ table tr img {
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+
 }
 
 .menu-item img {
     width: 18px;
     margin-right: 10px;
 }
-#interacoes td{
+
+#interacoes td {
 
     background-color: white;
     width: 80px;
-  
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+
+
+}
+
+#interacoes {
+    text-align: center;
     display: flex;
 
- 
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: small;
+}
+
+#disp {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+#interacoes td {
+    margin: 0%;
+    padding: 0px;
+}
+

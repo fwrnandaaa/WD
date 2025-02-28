@@ -1,38 +1,94 @@
+* {
+    font-family: montserrat-bold;
+    color: #695643;
+    font-weight: 540;
+    padding: 0;
+    margin: 0;
+}
 
 .container {
     display: flex;
     justify-content: space-between;
     width: 80%;
     margin: 50px 0;
+
 }
-.developers, .contact-form {
-    background: #efe6da;
-    padding: 20px;
-    border-radius: 10px;
-    width: 45%;
+
+.developer img {
+    width: 90px;
+    height: 90px;
+
+
 }
-.developers img {
-    width: 80px;
-    border-radius: 5px;
+
+#developers {
+    background-color: #F5EADA;
+    width: 70%;
+    margin-left: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 1, 0.1);
 }
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    font-size: small;
+    font-family: 'Lora', serif;
+}
+
 .developer {
     display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+    justify-content: center;
+    border: 1px solid red
 }
-.developer-info {
-    margin-left: 10px;
-}
-.contact-form input, .contact-form textarea, .contact-form button {
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-.footer {
-    text-align: center;
+
+.contact-form {
+    display: grid;
+    border: none;
+    gap: 10px;
+    border-radius: 30%;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     padding: 20px;
-    font-size: 12px;
+    background-color: #fff;
+    width: 350px;
+    align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    border: 1px solid #695643;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    width: 180px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.contact-form button {
+    background-color: #695643;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #a79584;
+}
+
+h2 {
+    text-align: center;
+}
+
+.contact-form img {
+
+    margin-left: 165px;
+    margin-bottom: 10px;
+
 }
