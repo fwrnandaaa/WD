@@ -1,143 +1,139 @@
 * {
-    font-family: 'Lora', serif;
-    color: #695643;
-    font-weight: 540;
-    padding: 0;
-    margin: 0;
-    text-align: center;
+  font-family: "Lora", serif;
+  color: #695643;
+  font-weight: 540;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 #itens_pessoais {
-
-    width: 70%;
-
+  width: 70%;
 }
 
 td {
-    padding-top: 30px;
-    margin-right: 30%;
+  padding-top: 30px;
+  margin-right: 30%;
 }
 
 main {
-    display: flex;
-    padding-left: 15%;
-    padding-right: 10%;
-    padding-top: 5%;
-    align-items: flex-start;
+  display: flex;
+  padding-left: 15%;
+  padding-right: 10%;
+  padding-top: 5%;
+  align-items: flex-start;
 }
 
 #perfil {
-    width: 30%;
-    height: 570px;
-    background-color: #F5EADA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 20px;
-    box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
-
-
+  width: 30%;
+  height: 570px;
+  background-color: #f5eada;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
 table tr img {
-    width: 25px;
-    height: auto;
+  width: 25px;
+  height: auto;
 }
 
 .teste {
-    width: 2%;
-    padding-right: 2%;
+  width: 2%;
+  padding-right: 2%;
 }
 
 .custom-line {
-    border: none;
-    height: 1px;
-    background-color: #695643;
-    margin-top: 5px;
-    width: 70%
+  border: none;
+  height: 1px;
+  background-color: #695643;
+  margin-top: 5px;
+  width: 80%;
 }
 
 #perfil h1 {
-    margin-bottom: 3%;
-    /* Espaçamento abaixo do texto */
+  margin-bottom: 3%;
+  /* Espaçamento abaixo do texto */
 }
 
-#perfil>img {
-    margin-bottom: 10%;
-    /* Espaçamento abaixo do texto */
-    width: 100px;
-    /* Ajuste o tamanho da imagem */
-    height: auto;
-    border-radius: 10px;
+#perfil > img {
+  margin-bottom: 10%;
+  /* Espaçamento abaixo do texto */
+  width: 100px;
+  /* Ajuste o tamanho da imagem */
+  height: auto;
+  border-radius: 10px;
 }
-
-
 
 .menu {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .menu-item {
-    background-color: white;
-    border: none;
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-
+  background-color: white;
+  border: none;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  padding-right: 3.4em;
 }
 
 .menu-item img {
-    width: 18px;
-    margin-right: 10px;
+  width: 18px;
+  margin-right: 10px;
 }
 
 #interacoes td {
+  background-color: white;
+  width: 60px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-    background-color: white;
-    width: 80px;
-    display: flex;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-collapse: collapse;
-
-
+.interacao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 #interacoes {
-    text-align: center;
-    display: flex;
-
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.interacao img {
+  width: 15px;
+  margin: 6px;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    letter-spacing: 1px;
-    padding-bottom: 10px;
-    font-size: small;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  font-size: small;
 }
 
 #disp {
-    justify-content: center;
-    display: flex;
-    gap: 10px;
-    padding-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 10px;
 }
 
 #interacoes td {
-    margin: 0%;
-    padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
