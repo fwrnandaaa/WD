@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #barra_pesquisa {
@@ -49,7 +49,7 @@
 
 #login a {
     text-decoration: none; /* Remove o sublinhado */
-    color: #695643; /* Cor do texto */
+    color: #251605; /* Cor do texto */
     font-size: 14px; /* Tamanho da fonte */
     font-weight: bold; /* Texto em negrito */
 }
@@ -66,7 +66,7 @@
     padding-top: 3%;
     padding-left: 10%;
     padding-right: 10%;
-    color: #695643;
+    color: #251605;
 }
 
 #navegacao a {
@@ -74,7 +74,7 @@
     font-size: 14px;
     font-weight: bold;
     display: inline-block;
-    color: #695643;
+    color: #251605;
 }
 
 #navegacao a:hover {
