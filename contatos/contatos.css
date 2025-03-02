@@ -94,7 +94,6 @@ footer {
   order: -1;
 }
 
-
 .email{
   display: flex;
   align-items:end;
@@ -119,9 +118,15 @@ footer {
   color: #695643;
 }
 
+
+
 h2 {
   text-align: center;
 }
+.dev-02{
+  text-align: end;
+}
+
 
 .contact-form {
   display: flex;
