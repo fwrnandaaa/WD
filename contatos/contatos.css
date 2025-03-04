@@ -18,10 +18,11 @@
   margin: 50px auto;
   gap: 2em;
 }
+
 .developer img {
   width: 100px;
   object-fit: cover;
-  border-radius: 3px;
+  border-radius: 15px;
 }
 #developers {
   background-color: #f5eada;
@@ -29,11 +30,13 @@
   box-shadow: 2px 2px 5px rgba(0, 0, 1, 0.1);
   padding: 2em 4em 2em 4em;
   margin: 0 auto;
+  border-radius: 15px;
 }
 .descricao-devs{
   text-align: justify;
   margin-bottom: 3em;
   font-size: 1em;
+  font-family: 'Montserrat', sans-serif;
 }
 
 footer {
@@ -44,7 +47,7 @@ footer {
   letter-spacing: 1px;
   padding-bottom: 10px;
   font-size: small;
-  font-family: "Lora", serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .developer {
@@ -168,4 +171,9 @@ h2 {
 
 .contact-form button:hover {
   background-color: #a79584;
+}
+
+footer {
+  font-family: 'Montserrat', sans-serif;
+  font-size: small; 
 }

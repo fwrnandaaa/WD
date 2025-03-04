@@ -7,6 +7,9 @@
     <title>Perfil do usuário</title>
     <link rel="stylesheet" href="..\navbar.css">
     <link rel="stylesheet" href="GDI.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -45,6 +48,81 @@
             </li>
         </ul>
     </nav>
+
+    <main>
+        <h1>Galeria de Imagens</h1>
+
+        <div class="container">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                <img src="imagens/Fugazzi.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                <img src="imagens/AquaDiParma.webp" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                <img src="imagens/Sarah.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                <img src="imagens/VanillaCircus.png" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                <img src="imagens/AquaDiParma2.webp" style="width:100%">
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                <img src="imagens/27.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div class="caption-container">
+                <p id="caption"></p>
+            </div>
+
+            <div class="row"> <div class="column">
+                    <img class="demo cursor" src="imagens/Fugazzi.jpg" style="width:100%" onclick="currentSlide(1)"
+                        alt="Fugazzi">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="imagens/AquaDiParma.webp" style="width:100%" onclick="currentSlide(2)"
+                        alt="Aqua Di Parma">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="imagens/Sarah.jpg" style="width:100%" onclick="currentSlide(3)"
+                        alt="Sarah Baker">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="imagens/VanillaCircus.png" style="width:100%" onclick="currentSlide(4)"
+                        alt="Vanilla Circus">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="imagens/AquaDiParma2.webp" style="width:100%" onclick="currentSlide(5)"
+                        alt="Aqua Di Parma">
+                </div>
+                <div class="column">
+                    <img class="demo cursor" src="imagens/27.jpg" style="width:100%" onclick="currentSlide(6)"
+                        alt="27 87">
+                </div>
+            </div>
+        </div>
+        <footer>
+            2006-2025 fragrantica.com perfumes magazine - Direitos Reservados. Leia
+            os Termos de Serviços e Política de Privacidade.
+        </footer>
+        <script src="GDI.js"></script>
+    </main>
 </body>
 
 </html>

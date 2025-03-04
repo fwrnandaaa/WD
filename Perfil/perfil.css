@@ -42,8 +42,6 @@ main {
 }
 
 
-
-
 .teste {
   width: 2%;
   padding-right: 2%;
@@ -140,4 +138,8 @@ footer {
 #interacoes td {
   margin: 0;
   padding: 0;
+}
+
+main {
+  padding-bottom: 40px;
 }
