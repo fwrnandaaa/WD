@@ -13,12 +13,12 @@
     border: none;
     border-radius: 5px;
     outline: none;
-    background-color: rgba(245, 234, 218, 1);
-    color: #666; /* Cor do texto */
+    background-color: #F5EADA;
+    color: #251605; /* Cor do texto */
 }
 
 #barra_pesquisa:focus {
-    background-color: rgba(245, 234, 218, 1);
+    background-color: #F5EADA;
 }
 
 #navpt1 {
@@ -82,6 +82,10 @@
 
 #navegacao a:hover {
     color: #DC143C;
+}
+
+h3 {
+color: #251605
 }
 @font-face{
     font-family: "montserrat-bold";
