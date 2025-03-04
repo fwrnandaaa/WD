@@ -1,5 +1,11 @@
-* {
-  font-family: montserrat-bold;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main{
+  font-family: 'Montserrat', sans-serif;
   color: #695643;
   font-weight: 540;
   padding: 0;
@@ -14,7 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  width: 80em;
   margin: 50px auto;
   gap: 2em;
 }
@@ -26,7 +32,7 @@
 }
 #developers {
   background-color: #f5eada;
-  width: 80%;
+  width: 80em;
   box-shadow: 2px 2px 5px rgba(0, 0, 1, 0.1);
   padding: 2em 4em 2em 4em;
   margin: 0 auto;
@@ -174,6 +180,5 @@ h2 {
 }
 
 footer {
-  font-family: 'Montserrat', sans-serif;
   font-size: small; 
 }
