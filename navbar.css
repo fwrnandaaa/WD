@@ -6,19 +6,19 @@
 }
 
 #barra_pesquisa {
-    width: 280px;
-    padding: 10px;
+    width: 150%;
+    padding: 6%;
     font-size: 12px;
     max-width:300px;
     border: none;
     border-radius: 5px;
     outline: none;
-    background-color: #F5EADA;
-    color: #251605; /* Cor do texto */
+    background-color: rgba(245, 234, 218, 1);
+    color: #666; /* Cor do texto */
 }
 
 #barra_pesquisa:focus {
-    background-color: #F5EADA;
+    background-color: rgba(245, 234, 218, 1);
 }
 
 #navpt1 {
@@ -32,7 +32,8 @@
 }
 
 #logoFrag {
-    width: 14em;
+    width: 40%;
+    margin-left: 14%;
     height: auto;
 }
 
@@ -45,8 +46,8 @@
 
 #login {
     display: flex;
-    gap: 5px;
-    margin-right: 6em;
+    gap: 10%;
+    margin-right: 5%;
     align-items: center; /* Alinha os itens verticalmente */
 }
 
@@ -82,10 +83,6 @@
 
 #navegacao a:hover {
     color: #DC143C;
-}
-
-h3 {
-color: #251605
 }
 @font-face{
     font-family: "montserrat-bold";
