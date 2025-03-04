@@ -6,7 +6,7 @@
 
 main{
   font-family: 'Montserrat', sans-serif;
-  color: #695643;
+  color: #251605; 
   font-weight: 540;
   padding: 0;
   margin: 0;
@@ -41,8 +41,8 @@ main {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-radius: 20px;
-  box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+   /* box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2); */
 }
 
 
@@ -64,6 +64,10 @@ main {
   /* Espaçamento abaixo do texto */
 }
 
+h1 {
+  margin-bottom: 5em;
+}
+
 #perfil > img {
   margin-bottom: 2em;
   /* Espaçamento abaixo do texto */
@@ -76,7 +80,8 @@ main {
 .menu {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+  margin-top: 20px;
 }
 
 .menu-item {
@@ -86,14 +91,15 @@ main {
   display: flex;
   padding: 10px;
   font-size: 16px;
-  font-weight: bold;
   cursor: pointer;
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   padding-right: 3.4em;
+ 
 }
+
 .menu-item i{
-  font-size: 18px;
+  font-size: 16px;
   margin-right: 15px;
   color: #DC143C;
 }
@@ -131,6 +137,7 @@ footer {
   letter-spacing: 1px;
   padding-bottom: 10px;
   font-size: small;
+  color: #695643;
 }
 
 #disp {

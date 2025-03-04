@@ -23,6 +23,7 @@ main{
   width: 80em;
   margin: 50px auto;
   gap: 2em;
+  max-width: 1000px;
 }
 
 .developer img {
@@ -41,8 +42,9 @@ main{
 .descricao-devs{
   text-align: justify;
   margin-bottom: 3em;
-  font-size: 1em;
+  font-size: 0.9em;
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
 }
 
 footer {
@@ -88,10 +90,14 @@ footer {
   grid-column: 1/2;
   grid-row: 1/2;
   padding-bottom: 5em;
+  text-align: left;
+  font-size: 0.9em;
 }
 .dev-02 {
   grid-column: 2/3;
   grid-row: 2/3;
+  text-align: right;
+  font-size: 0.9em;
 }
 
 .developer-info p{
@@ -109,7 +115,7 @@ footer {
   gap: 10px;
 }
 .email i {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 .dev-02 .email{
@@ -128,9 +134,9 @@ footer {
 }
 
 
-
 h2 {
   text-align: center;
+  color: #251605;
 }
 .dev-02{
   text-align: end;
@@ -181,4 +187,5 @@ h2 {
 
 footer {
   font-size: small; 
+  font-family: 'Montserrat', sans-serif;
 }
