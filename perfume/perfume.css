@@ -1,3 +1,15 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.princiapl2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
 .principal{
     background-color: #F5EADA;
     margin: 0 4%;
@@ -9,7 +21,6 @@
 
 .clhoe{
     margin: 5%;
-    padding-top: 5%;
     font-size: 44px;
     color: #251605;
 }
