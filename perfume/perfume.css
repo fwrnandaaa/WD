@@ -138,13 +138,13 @@ span {
 }
 
 .lista_emoji {
-    background: none; /* Remove o fundo padrão do botão */
-    border: none; /* Remove a borda padrão do botão */
-    padding: 0; /* Remove o preenchimento padrão do botão */
-    cursor: pointer; /* Muda o cursor para um ponteiro */
-    font-size: inherit; /* Garante que o tamanho do ícone seja herdado */
-    color: inherit; /* Garante que a cor do ícone seja herdada */
-    outline: none; /* Remove a borda de foco */
+    background: none;
+    border: none; 
+    padding: 0;
+    cursor: pointer; 
+    font-size: inherit; 
+    color: inherit; 
+    outline: none; 
     font-size: 24px;
 }
 
@@ -152,7 +152,7 @@ span {
     background-color: #F5EADA;
     margin: 0 4%;
     width: 80%;
-    border-bottom: 40px solid #ffffff; /* Adiciona uma borda inferior rosa */
+    border-bottom: 40px solid #ffffff; 
 }
 
 h4 {
@@ -206,22 +206,21 @@ textarea {
 }
 
 .textarea-container h4 {
-    align-self: flex-start; /* Alinha o h4 à esquerda */
+    align-self: flex-start; 
     margin-bottom: 5px;
-    color: #251605 /* Adiciona um pequeno espaço abaixo do h4 */
+    color: #251605 
 }
 
 .escreve textarea {
     padding: 2% 2%;
-    width: 80%; /* O textarea ocupa toda a largura */
-    margin-bottom: 10px; /* Espaço entre o textarea e o botão */
+    width: 80%; 
+    margin-bottom: 10px; 
     border: 1px solid #DC143C;
     border-radius: 15px;
     align-self:center;
 }
 
 .botao-enviar {
-    /* Estilos do botão */
     padding: 5px;
     background-color: #DC143C;
     color: white;
@@ -231,7 +230,7 @@ textarea {
     width: 80px;
     font-size: 0.8em;
     position: relative;
-    left: -10%; /* Move 20px para a esquerda */
+    left: -10%;
 }
 
 .acordes,
@@ -252,7 +251,7 @@ textarea:focus {
   }
 
   table {
-    width: 70%; /* ALTERAR1!!!!!!! */
+    width: 70%; 
     border-collapse: separate; 
     margin: 0 auto; 
     margin-bottom: 90px;
