@@ -37,11 +37,17 @@
     height: auto;
 }
 
-#loginIcon {
+.icons-top{
+    color: rgb(105, 86, 67);
+    font-size: 1.2em;
     padding-top: 6px;
     margin-left: 2px;
-    width: 18px;
+    width: 24px;
     height: auto;
+}
+
+.icons-top:hover{
+    color:#DC143C;
 }
 
 #login {
